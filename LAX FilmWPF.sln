@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAX FilmWPF", "LAX FilmWPF\LAX FilmWPF.csproj", "{3EF5E2C3-A1B9-446C-A0A4-118EFB4CFA4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EF5E2C3-A1B9-446C-A0A4-118EFB4CFA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF5E2C3-A1B9-446C-A0A4-118EFB4CFA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF5E2C3-A1B9-446C-A0A4-118EFB4CFA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF5E2C3-A1B9-446C-A0A4-118EFB4CFA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE86AD62-7AD0-450E-BDC2-3C7AEDEE7B63}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Window x:Class="LAX_FilmWPF.Rediger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAX_FilmWPF"
+        mc:Ignorable="d"
+        Title="Rediger" Height="300" Width="400">
+    <Grid>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30" FontWeight="Bold" FontSize="20">Film Titel</Label>
+        <TextBox x:Name="TitleBox" Width="120" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="30,40"></TextBox>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,30,70" FontWeight="Bold" FontSize="20">Instruktør</Label>
+        <TextBox x:Name="InstruktørBox" Width="120" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="30,0,30,70"></TextBox>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,100"  FontWeight="Bold" FontSize="20">Årstal</Label>
+        <TextBox x:Name="ÅrstalBox" Width="120" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="30,110"></TextBox>
+        <Button Width="80" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,150,30" Click="Ok_Click">Update</Button>
+    </Grid>
+</Window>
